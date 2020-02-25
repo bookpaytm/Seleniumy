@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Ecommerce" parallel="false">
+  <test name="sanitytests">
+    <classes>
+      <class name="abcd.Launchbrowser"/>
+      <class name="abcd.Class2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

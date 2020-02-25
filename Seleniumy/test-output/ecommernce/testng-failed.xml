@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ecommernce]">
+  <test name="sanity(failed)">
+    <classes>
+      <class name="abcd.TestNg10">
+        <methods>
+          <include name="verifyTitle"/>
+        </methods>
+      </class> <!-- abcd.TestNg10 -->
+    </classes>
+  </test> <!-- sanity(failed) -->
+</suite> <!-- Failed suite [ecommernce] -->

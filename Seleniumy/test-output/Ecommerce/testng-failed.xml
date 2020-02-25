@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ecommerce]">
+  <test name="User(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="abcd.Class2">
+        <methods>
+          <include name="verifyicicbank"/>
+          <include name="verifyamzon"/>
+          <include name="verifygoogle"/>
+        </methods>
+      </class> <!-- abcd.Class2 -->
+    </classes>
+  </test> <!-- User(failed) -->
+</suite> <!-- Failed suite [Ecommerce] -->

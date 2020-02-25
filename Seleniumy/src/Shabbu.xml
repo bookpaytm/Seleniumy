@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="SanityTest">
+    <classes>
+      <class name="abcd.class4"/>
+      <class name="abcd.Class5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
