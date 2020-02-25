@@ -13,7 +13,7 @@ public class Admin1 {
 System.setProperty("webdriver.chrome.driver", "F:/chromedriver.exe");
 WebDriver driver=new ChromeDriver();
 driver.get("https://www.google.com");
-
+driver.manage().window().maximize();
 	}
 
 }
